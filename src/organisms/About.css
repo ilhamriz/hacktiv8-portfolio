@@ -1,0 +1,38 @@
+.about__contact{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin-bottom: 40px;
+}
+
+.about__contact a{  
+  color: white;
+}
+
+.about__contact span{
+  background-color: var(--orange);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.about__contact span:hover{
+  background-color: var(--orange-dark);
+}
+
+.about__contact span:first-child{
+  margin-right: 24px;
+}
+
+#About p{
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.about__sosmed svg{
+  margin-right: 1rem;
+  fill: var(--body-text);
+}
+
+.about__sosmed a:hover svg{
+  fill: #2a2a2a;
+}

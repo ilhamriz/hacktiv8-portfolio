@@ -1,0 +1,26 @@
+.exp__list{
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.exp__list span{
+  width: 81px;
+  color: var(--orange-dark);
+  margin-right: 24px;
+}
+
+.exp__details{
+  max-width: 650px;
+  margin: 8px 0 0 24px;
+  color: var(--body-text);
+}
+
+.exp__details li{
+  list-style-type: circle;
+}
+
+p.exp__subTitle{
+  margin-top: 4px;
+  font-style: italic;
+  color: var(--black);
+}

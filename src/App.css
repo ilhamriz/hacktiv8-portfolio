@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+:root{
+  --orange: #FF8049;
+  --orange-dark: #e7652e;
+  --body-text: #666666;
+  --black: #1a1a1a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: linear-gradient(34.04deg, #D4D4D4 32.42%, #EEEEEE 100%);
+  font-size: 18px;
+  color: var(--black);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li{
+  list-style: none;
+}
+
+.container{  
+  width: calc(100% - 350px);
+  height: 100vh;
+  float: right;  
+  padding: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 50px;
+  margin-bottom: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+}
+
+#About p, #Interests p, .award__list p{
+  color: var(--body-text);
+}
+
+#Interests p{
+  max-width: 640px;
+  margin-bottom: 24px;
+  line-height: 25px;
+}
+
+.award__list{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.award__list p{
+  margin-left: 8px;
 }
